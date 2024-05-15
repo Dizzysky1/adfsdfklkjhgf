@@ -1,0 +1,55 @@
+local lib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/Vape.txt")()
+
+local win = lib:Window("Mono Hub v2 [PREMIUM]",Color3.fromRGB(44, 120, 224), Enum.KeyCode.RightControl)
+
+local tab = win:Tab("Basic Exploits")
+
+tab:Button("Infinite Yield", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+tab:Button("Infinite Jumps", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dizzysky1/localscript-inf-jump/main/Script'))()
+end)
+
+tab:Button("Anti-Cheat Bypass", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dizzysky1/ThisShitNice23udw9haduhadijnadnkjadsnjadsnjkadnk/main/huuhuddhauijnadnjadnadsnjadsjndasjnasdjnda'))()
+end)
+
+tab:Button("Unnamed ESP", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua'))()
+end)
+
+tab:Button("Universal Aimbot", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/gdz0Sd0J"))()
+end)
+
+local tab2 = win:Tab("Trolling Scripts")
+
+tab2:Button("FE Trolling Script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+local tab3 = win:Tab("Hubs")
+
+tab3:Button("FE Trolling Gui", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/FE%20Trolling%20GUI.luau"))()
+end)
+
+local tab4 = win:Tab("Premium Scripts")
+
+tab4:Button("esp and hitbox changer", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dizzysky1/daadsdsasad/main/dddddd'))()
+end)
+
+tab4:Button("FE fling gui", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fe-yeet-gui-7351"))()
+end)
+
+tab4:Button("AirHub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Exunys/AirHub/main/AirHub.lua'))()
+end)
+
+tab3:Button("Omen Hub Premium", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dizzysky1/OmenHubPremiumV3/main/OmenHub'))()
+end)
